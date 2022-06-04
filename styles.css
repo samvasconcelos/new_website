@@ -1,0 +1,182 @@
+/************************HTML/TEXT CSS************************/
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    font-size: 6.25rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h1:hover{
+    transition: 1.5s;
+    color: rgb(32, 46, 109);
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #66BFBF;
+}
+h3{
+    margin: 5px;
+    color: #11999E;
+    size: 3rem;
+} 
+
+p{
+    line-height: 2;
+    margin: 25px;
+}
+
+a{
+    color: #11999E;
+}
+
+a:hover{
+    transition: 0.5s;
+    color: rgb(230, 84, 40);
+}
+
+hr{
+    border: 2.5px solid rgb(221, 221, 221);
+
+}
+
+/**************************BOXES CSS********************************/
+
+/*******TOP_CONTAINER*****/
+
+.top_container{
+    padding-top: 100px;
+    background-color: rgb(190, 244, 255);
+    position: relative;
+    display: block;
+}
+
+.cloud_1{
+    padding: 20px;
+    position: absolute;
+        right: 15%;
+        top: 50px;
+}
+
+.cloud_2{
+    position: absolute;
+    padding: 20px;
+    bottom: 280px;
+    left: 12%;
+}
+
+.mountain{
+    position: relative;
+    top: 4px;
+    margin: 0px;
+
+}
+
+/*******MIDDLE_CONTAINER********/
+
+.middle_container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.profile{
+    position: relative;
+    margin: auto;
+    width: 70%;
+}
+
+.bottom_container{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.Subtitulos{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.skill-row{
+    margin: 0 auto;
+    height: 300px;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+.skill_img1
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+        right: 5%;
+        top: 0%;
+}
+.skill_img2
+{
+    height: 230px;
+    width: 230px;
+    position: absolute;
+        left: 5%;
+        top: 0%;
+}  
+            .container_img1{
+                height: 200px;
+                width: 30%;
+                display: inline-block;
+                position: absolute;
+                    left: 0rem;
+                
+            }
+            .container_text1{
+                height: 200px;
+                width: 70%;
+               display: inline-block;
+               text-align: left;
+               position: absolute;
+               right: 0rem;
+            }
+            .container_img2{
+                height: 200px;
+                width: 30%;
+                display: inline-block;
+                position: absolute;
+                    right: 0rem;
+            }
+            .container_text2{
+                height: 200px;
+                width: 70%;
+                display: inline-block;
+                text-align: left;
+                position: absolute;
+                    left: 0rem;
+            }
+            .texto_skills1{
+                height: 200px;
+                width: 90%;
+                position: absolute;
+                left: 0rem;
+                top: 15px;
+            }
+            .texto_skills2{
+                height: 200px;
+                width: 90%;
+                position: absolute;
+                    right: 0rem;
+                    top: 15px;
+            }
+.pic{
+    height: 200px;
+    width: 200px;
+    padding: 20px 0 20px 0;
+}
+
