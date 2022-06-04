@@ -85,7 +85,7 @@ hr{
 /*******MIDDLE_CONTAINER********/
 
 .middle_container{
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     height: 200px;
     width: 200px;
 }
